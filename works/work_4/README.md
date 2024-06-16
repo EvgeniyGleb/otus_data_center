@@ -126,7 +126,7 @@ router bgp 65000
 
 ### Проверка связанности устройств по протоколу BGP
 
-- #### spine-1
+- #### spine_1
 
 ```
 spine_1#sh ip bgp summary
@@ -164,7 +164,7 @@ Gateway of last resort is not set
  C        10.2.1.4/31 is directly connected, Ethernet3
 ```
 
-- #### spine-2
+- #### spine_2
 
 ```
 spine_2(config-router-bgp)#do sh ip rou
@@ -253,7 +253,7 @@ PING 10.1.0.3 (10.1.0.3) from 10.1.0.1 : 72(100) bytes of data.
 rtt min/avg/max/mdev = 10.209/12.850/15.246/1.844 ms, pipe 2, ipg/ewma 14.125/13.911 ms
 ```
 
-- #### leaf-2
+- #### leaf_2
 
 ```
 leaf_2(config-router-bgp)#do sh ip bg su
